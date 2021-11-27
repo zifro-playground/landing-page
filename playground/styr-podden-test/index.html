@@ -23,9 +23,12 @@
     <link href="/css/animate.css">
     <script src="/scripts/bootstrap.js"></script>
 
+    <!-- Unity Scripts-->
+    <script src="/scripts/UnityProgress.js"></script>
+    <script src="UnityLoader.js"></script>
 
     <!-- Custom styles for this template -->
-    <link href=".../css/style.css" />
+    <link href="/css/style.css" />
     <link href="/css/activities.css" >
 
     <!-- Import Raleway font -->
@@ -70,8 +73,6 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <p>Här laddas spelet</p>
-                    <script src="/scripts/UnityProgress.js"></script>
-                    <script src="UnityLoader.js"></script>
                     <script>
                         var gameInstance = UnityLoader.instantiate("liveGameContainer","Builds.json")", { onProgress: UnityProgress });
                     </script>
