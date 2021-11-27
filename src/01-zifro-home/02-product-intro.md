@@ -1,0 +1,15 @@
+<!-- Template: Product Intro -->
+<!-- Link: /zifro-home/product-intro/ -->
+<!-- Page name: Product Intro -->
+<!-- Section Title: Läromedlets två sidor -->
+<!-- Section Subtitle: ZIFRO är ett komplett läromedel för programmering i högstadiet, med en sida för eleven och en sida för läraren.  -->
+<!-- Playground Text: -->
+
+Eleverna kodar i programmeringsspråket Python och tränar matematisk problemlösning i vår egenutvecklade kodmiljö.
+
+<!-- Playground Image: {empty} -->
+<!-- Teacher Text: -->
+
+Lärarna får allt material som behövs för att förbereda och hålla i lektioner i programmering, som en del av matematiken.
+
+<!-- Teacher Image: {empty} -->
