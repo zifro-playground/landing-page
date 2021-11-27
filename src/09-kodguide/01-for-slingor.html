@@ -1,0 +1,24 @@
+<!-- TLDR: Variabler används för att spara information i datorns minne. -->
+<p>Om vi vill säga HEJ till någon många gånger, t.ex. 33 gånger, så blir det lite jobbigt att skriva skicka_meddelande("HEJ!") 33 gånger efter varandra. Då kan vi istället skriva dessa två rader:</p>
+<pre>for i in range(33):
+    skicka_meddelande("HEJ!")</pre>
+<p>Det är väldigt smidigt!</p>
+<ul>
+<li>Huvudraden i en for-slinga (for i in range(33):) berättar alltså för datorn att det som är nedanför ska upprepas (i det här fallet 33 gånger).</li>
+<li>Koden som hör till for-slingan ska vara ”ett hopp in” ifrån vänsterkanten, så att datorn vet vad som ska upprepas och inte. ”Hoppet” görs av TAB-knappen på datorn. Den sitter ofta ute till vänster och består av en pil till höger.</li>
+<li>Kod som är ”ett hopp in” kallas för att den är<em> indenterad</em>.</li>
+<li>Jämför med <a data-udi="umb://document/e31c73d0830641029ef011658d5a3001" href="/{localLink:umb://document/e31c73d0830641029ef011658d5a3001}" title="If-satser">if-satser</a>, där vi också använder oss av indenterad kod för att visa vad som hör till if-satsen!</li>
+</ul>
+<h4>Bestäm hur många gånger koden ska upprepas</h4>
+<p>Du kan byta ut "33" ovan till något annat heltal som är större än noll så kommer meddelandet att skickas så många gånger.</p>
+<p>Om vi vill åka framåt 5 steg, och sen svänga höger 1 gång, så kan vi skriva såhär:</p>
+<pre>for i in range(5): 
+    åk_framåt()
+sväng_höger()</pre>
+<p>åk_framåt() är ett hopp in och kommer därför att upprepas, medan sväng_höger() är längst ut mot kanten och kommer därför bara att köras en gång.</p>
+<h4>Viktigt vid for-slingor</h4>
+<p>Två saker som är lätt att missa när man först lär sig for-slingor är:</p>
+<ol>
+<li>Glöm inte att avsluta huvudraden med kolon (:).</li>
+<li>Glöm inte att all kod som hör till for-slingan (det som ska upprepas) ska vara indenterad, dvs ”ett hopp” in från vänsterkanten. Resten ska vara tillbaka på samma nivå som for-slingans huvudrad ("for i in range(...)").</li>
+</ol>
