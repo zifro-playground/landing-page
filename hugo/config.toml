@@ -1,0 +1,11 @@
+baseURL = 'https://zifro.se/'
+title = 'Zifro'
+
+languageCode = 'sv-se'
+defaultContentLanguage = 'sv-se'
+
+enableEmoji = true # https://www.webfx.com/tools/emoji-cheat-sheet/
+enableInlineShortcodes = true
+
+[markup.goldmark.renderer]
+unsafe = true

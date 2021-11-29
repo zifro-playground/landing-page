@@ -1,0 +1,19 @@
+{{ define "main" }}
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 mx-auto">
+					{{ with .Content }}
+						{{ . | safeHTML }}
+					{{ end }}
+					{{ if .Date }}
+					<hr/>
+					<p>
+						<em>Senast uppdaterad: {{ .Date.Format "2006-01-02" }}</em>
+					</p>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</section>
+{{ end }}
