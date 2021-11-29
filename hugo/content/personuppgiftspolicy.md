@@ -13,7 +13,7 @@ Personuppgiftspolicy för **Zifro AB**, organisationsnummer 556993-2261 (”Zifr
 
 {{% alertbox class="alert-secondary" %}}
 **Kontaktperson:** Sara Danielsson <br>
-**E-post:** [personuppgifter@zifro.se](mailto:personuppgifter@zifro.se)\
+**E-post:** <personuppgifter@zifro.se>\
 **Postadress:** c/o KTH Innovation, Lindstedtsvägen 24, 114 28 Stockholm
 {{% /alertbox %}}
 

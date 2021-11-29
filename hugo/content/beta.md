@@ -116,6 +116,6 @@ personuppgifter@zifro.se.
 
 ---
 
-Kontaktuppgifter: [sara@zifro.se](mailto:sara@zifro.se).
+Kontaktuppgifter: <sara@zifro.se>.
 
 {{% /alertbox %}}

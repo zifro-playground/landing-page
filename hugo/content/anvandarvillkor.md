@@ -180,7 +180,7 @@ om inte annat följer av tvingande lag.
 ### Kontaktuppgifter
 
 {{% alertbox class="alert-secondary" %}}
-**E-post:** [info@zifro.se](mailto:info@zifro.se)\
+**E-post:** <info@zifro.se>\
 **Postadress:** c/o KTH Innovation, Lindstedtsvägen 24, 114 28 Stockholm
 {{% /alertbox %}}
 
