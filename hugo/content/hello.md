@@ -11,10 +11,10 @@ headerColor: dark-grey
 - [Talföljder][6]
 - [Delbarhet][7]
 
-[1]: http://zifro.se/hello/styr-podden
-[2]: http://zifro.se/hello/rakna-varorna
-[3]: http://zifro.se/hello/sortera-varorna
-[4]: http://zifro.se/hello/chatbotten
-[5]: http://zifro.se/hello/miniraknaren
-[6]: http://zifro.se/hello/talfoljder
-[7]: http://zifro.se/hello/delbarhet
+[1]: /hello/styr-podden
+[2]: /hello/rakna-varorna
+[3]: /hello/sortera-varorna
+[4]: /hello/chatbotten
+[5]: /hello/miniraknaren
+[6]: /hello/talfoljder
+[7]: /hello/delbarhet
