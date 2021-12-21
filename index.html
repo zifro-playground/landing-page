@@ -1,50 +1,53 @@
 <!DOCTYPE html>
 <html lang="sv">
 
-  <head>
+<head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109737137-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'UA-109737137-1');
     </script>
 
 
-    <title> Zifro – Ditt läromedel i programmering </title> 
+    <title> Zifro – Ditt läromedel i programmering </title>
 
     <!-- META TAGS-->
     <meta charset="utf-8">
-    <meta name="viewport"       content="width=device-width, initial-scale=1, shrink-to-fit=no" >
-    <meta name="description"    content="Zifro &#228;r det kompletta l&#228;romedlet f&#246;r programmering anpassat till den nya l&#228;roplanen. Vi erbjuder en sn&#228;ll och lekfull kodmilj&#246; d&#228;r elever tr&#228;nar programmering i Python samt allt n&#246;dv&#228;ndigt material som l&#228;rare beh&#246;ver f&#246;r att undervisa." >
-    <meta name="keywords"       content="Programmering, kodning, Python, l&#228;romedel, kodmilj&#246;, skola, l&#228;roplan, h&#246;gstadiet, digitala hj&#228;lpmedel" >
-    <meta name="author"         content="Zifro" >
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="Zifro &#228;r det kompletta l&#228;romedlet f&#246;r programmering anpassat till den nya l&#228;roplanen. Vi erbjuder en sn&#228;ll och lekfull kodmilj&#246; d&#228;r elever tr&#228;nar programmering i Python samt allt n&#246;dv&#228;ndigt material som l&#228;rare beh&#246;ver f&#246;r att undervisa.">
+    <meta name="keywords"
+        content="Programmering, kodning, Python, l&#228;romedel, kodmilj&#246;, skola, l&#228;roplan, h&#246;gstadiet, digitala hj&#228;lpmedel">
+    <meta name="author" content="Zifro">
 
-    <meta property="og:title"   content="Ditt l&#228;romedel i programmering" />
-    <meta property="og:type"    content="article" />
-    <meta property="og:url"     content="https://www.zifro.se/"/>
-    <meta property="og:description" content="Zifro &#228;r det kompletta l&#228;romedlet f&#246;r programmering anpassat till den nya l&#228;roplanen. Vi erbjuder en sn&#228;ll och lekfull kodmilj&#246; d&#228;r elever tr&#228;nar programmering i Python samt allt n&#246;dv&#228;ndigt material som l&#228;rare beh&#246;ver f&#246;r att undervisa." />
-    <meta property="og:image"   content="media/zifro_dark_medium.png" >
+    <meta property="og:title" content="Ditt l&#228;romedel i programmering" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.zifro.se/" />
+    <meta property="og:description"
+        content="Zifro &#228;r det kompletta l&#228;romedlet f&#246;r programmering anpassat till den nya l&#228;roplanen. Vi erbjuder en sn&#228;ll och lekfull kodmilj&#246; d&#228;r elever tr&#228;nar programmering i Python samt allt n&#246;dv&#228;ndigt material som l&#228;rare beh&#246;ver f&#246;r att undervisa." />
+    <meta property="og:image" content="media/zifro_dark_medium.png">
 
-	<link rel="icon" type="image/png" href="media/diamond_icon.png">
+    <link rel="icon" type="image/png" href="media/diamond_icon.png">
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="css/style.css" >
-    <link rel="stylesheet" href="css/timeline-story.css" >
-    <link rel="stylesheet" href="css/activities.css" >
-    <link rel="stylesheet" href="css/codeguide.css" >
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/timeline-story.css">
+    <link rel="stylesheet" href="css/activities.css">
+    <link rel="stylesheet" href="css/codeguide.css">
 
     <!-- Import Raleway font -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,600">
 
     <!-- Import Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    
+
     <!-- Bootstrap core/Jquery JavaScript -->
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
@@ -52,305 +55,335 @@
 
     <!-- COOKIE CONSENT -->
     <!-- From https://cookieconsent.insites.com/ -->
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
     <script src="scripts/cookie-consent.js"></script>
 
-  </head>
+</head>
 
-  <body id="page-top">
+<body id="page-top">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-z-dark2 fixed-top" id="mainNav">
-    <div class="container">
+        <div class="container">
 
-        <!-- ZIFRO ICON -->
-        <a class="navbar-brand" href="/">
-            <img src="media/zifro_white.svg" height="25px" alt="Zifro">
-        </a>
-        <!-- LOGIN/REGISTER BUTTONS -->
-    </div>
-</nav>
-
-<header class="header-homepage bg-z-dark text-white d-flex">
-    <div class="container my-auto">
-        <div class="row">
-            <div class="col-md-10 mx-auto">
-                
-                <h1 class="header-title">
-                    En läromiljö i programmering för nybörjare
-                </h1>
-                
-                <h3 class="header-subtitle"> 
-                    Alla ska få chansen att upptäcka och förstå programmering! ZIFRO är en läromiljö i Python-programmering för lärare och elever, framtagen för högstadiet. <strong> Zifro är tillgängligt för alla att använda, utan kostnad! </strong>
-                </h3>
-                
-            </div>
+            <!-- ZIFRO ICON -->
+            <a class="navbar-brand" href="/">
+                <img src="media/zifro_white.svg" height="25px" alt="Zifro">
+            </a>
+            <!-- LOGIN/REGISTER BUTTONS -->
         </div>
-    </div>
-</header>
+    </nav>
 
-<section id="product-intro">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 mx-auto">
-                
-                <h2 class="section-title">Två sidor av läromedlet</h2>
-                <h6 class="section-subtitle">ZIFRO är ett komplett läromedel i programmering för högstadiet, med en sida för eleven och en sida för läraren. </h6>
-                
-                <div class="row justify-content-center mt-5">
-                    
-                    <div class="col-md-5 text-center">
-                        <div style="min-height: 300px;">
-                            <div class="icon-wrapper">
-                                <a href="#teacher">
-                                    <img src="media/teacher_icon.png" class="center animated-clickable" alt="ZIFRO TEACHER" height="130px">
-                                </a>
-                            </div>
-                            <a href="#teacher" style="color:var(--teacher-color)" >
-                                <h4 class="">ZIFRO TEACHER&trade;</h4>
-                            </a>
-                            <p>Lärarna får allt material som behövs för att förbereda och hålla i lektioner i programmering, som en del av matematiken.</p>
-                        </div>
-                        <a href="#teacher" style="color:var(--zifro-purple);">
-                            <i class="fas fa-chevron-circle-down"></i>
-                            Läs mer
-                        </a>
-                    </div>
+    <header class="header-homepage bg-z-dark text-white d-flex">
+        <div class="container my-auto">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
 
-                    <div class="col-md-5 text-center">
-                        <div style="min-height: 300px;">
-                            <div class="icon-wrapper" style="padding-top:30px;">
-                                <a href="#playground">
-                                    <img src="media/playground_icon.png" class="center animated-clickable" alt="ZIFRO PLAYGROUND" height="100px">
-                                </a>
-                            </div>
-                            <a href="#playground" style="color:var(--playground-color)">
-                                <h4 class="">ZIFRO PLAYGROUND&trade;</h4>
-                            </a>
-                            <p>Eleverna kodar i programmeringsspråket Python och tränar matematisk problemlösning i vår egenutvecklade kodmiljö.</p>
-                        </div>
-                        <a href="#playground" style="color:var(--zifro-green);">
-                            <i class="fas fa-chevron-circle-down"></i>
-                            Läs mer
-                        </a>
-                    </div>
-                    
+                    <h1 class="header-title">
+                        En läromiljö i programmering för nybörjare
+                    </h1>
+
+                    <h3 class="header-subtitle">
+                        Alla ska få chansen att upptäcka och förstå programmering! ZIFRO är en läromiljö i
+                        Python-programmering för lärare och elever, framtagen för högstadiet. <strong> Zifro är
+                            tillgängligt för alla att använda, utan kostnad! </strong>
+                    </h3>
+
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </header>
 
-<section class="thin-section bg-z-purple text-white" id="numbers">
-    <div class="container">
-        <div class="row">
+    <section id="product-intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
 
-            <div class="col-md-10 mx-auto">
-            
-                <div class="row">
-                    <div class="col-md-4 mx-auto text-center">
-                        <h1>360</h1>
-                        <h5>lärare från 71 kommuner har testat ZIFRO</h5>
-                    </div>
-                    <div class="col-md-4 mx-auto text-center">
-                        <h1>200 000+</h1>
-                        <h5>rader har kodats i ZIFRO PLAYGROUND</h5>
-                    </div>
-                    <div class="col-md-4 mx-auto text-center">
-                        <h1>93</h1>
-                        <h5>banor finns hittills i ZIFRO PLAYGROUND</h5>
-                    </div>
-                </div>
-                
-            </div>
-        </div>    
-    </div>
-</section>
+                    <h2 class="section-title">Två sidor av läromedlet</h2>
+                    <h6 class="section-subtitle">ZIFRO är ett komplett läromedel i programmering för högstadiet, med en
+                        sida för eleven och en sida för läraren. </h6>
 
-<section class="bg-z-dark text-white" id="why-zifro">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 mx-auto">
+                    <div class="row justify-content-center mt-5">
 
-                <h2 class="section-title"> Varför ska jag använda ZIFRO? </h2>
-                
-                <div class="row m-4 align-items-center">
-                    <div class="col-md-2 text-center pb-3">
-                        <i class="fas fa-clock fa-4x animate-hover"></i>
-                    </div>
-                    <div class="col-md-10">
-                        <h5 style="text-transform: uppercase;">SPARA TID</h5>
-                        <p>Välj mellan våra kompletta aktiviteter och spara förberedelsetid.</p>
-                    </div>
-                </div>
-                <div class="row m-4 align-items-center">
-                    <div class="col-md-2 text-center pb-3">
-                        <i class="fas fa-star fa-4x animate-hover"></i>
-                    </div>
-                    <div class="col-md-10">
-                        <h5 style="text-transform: uppercase;">LÄR DIG PÅ VÄGEN</h5>
-                        <p>Om du inte redan känner dig bekväm med programmering, så kommer du att lära dig tillsammans med dina elever.</p>
-                    </div>
-                </div>
-                <div class="row m-4 align-items-center">
-                    <div class="col-md-2 text-center pb-3">
-                        <i class="fas fa-rocket fa-4x animate-hover"></i>
-                    </div>
-                    <div class="col-md-10">
-                        <h5 style="text-transform: uppercase;">INGET INLOGG</h5>
-                        <p> Nu krävs inte längre något inlogg för att kunna använda ZIFRO PLAYGROUND och ZIFRO TEACHER.</p>
+                        <div class="col-md-5 text-center">
+                            <div style="min-height: 300px;">
+                                <div class="icon-wrapper">
+                                    <a href="#teacher">
+                                        <img src="media/teacher_icon.png" class="center animated-clickable"
+                                            alt="ZIFRO TEACHER" height="130px">
+                                    </a>
+                                </div>
+                                <a href="#teacher" style="color:var(--teacher-color)">
+                                    <h4 class="">ZIFRO TEACHER&trade;</h4>
+                                </a>
+                                <p>Lärarna får allt material som behövs för att förbereda och hålla i lektioner i
+                                    programmering, som en del av matematiken.</p>
+                            </div>
+                            <a href="#teacher" style="color:var(--zifro-purple);">
+                                <i class="fas fa-chevron-circle-down"></i>
+                                Läs mer
+                            </a>
+                        </div>
+
+                        <div class="col-md-5 text-center">
+                            <div style="min-height: 300px;">
+                                <div class="icon-wrapper" style="padding-top:30px;">
+                                    <a href="#playground">
+                                        <img src="media/playground_icon.png" class="center animated-clickable"
+                                            alt="ZIFRO PLAYGROUND" height="100px">
+                                    </a>
+                                </div>
+                                <a href="#playground" style="color:var(--playground-color)">
+                                    <h4 class="">ZIFRO PLAYGROUND&trade;</h4>
+                                </a>
+                                <p>Eleverna kodar i programmeringsspråket Python och tränar matematisk problemlösning i
+                                    vår egenutvecklade kodmiljö.</p>
+                            </div>
+                            <a href="#playground" style="color:var(--zifro-green);">
+                                <i class="fas fa-chevron-circle-down"></i>
+                                Läs mer
+                            </a>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </div>    
-    </div>
-</section>
+        </div>
+    </section>
 
+    <section class="thin-section bg-z-purple text-white" id="numbers">
+        <div class="container">
+            <div class="row">
 
-<section id="playground" style="padding-bottom: 25px;">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 mx-auto">
+                <div class="col-md-10 mx-auto">
 
-                <h2 class="section-title" style="color: var(--playground-color)">
-                    ZIFRO PLAYGROUND
-                </h2>
-                
-                <h6 class="section-subtitle">
-                    Eleverna får mycket visuellt stöd för att förstå programmeringen.
-                </h6>
-                
-                <div class="video-container">
-                    <video muted loop id="playground-demo" class="playground-info-video" allow="autoplay">
-                        <source src="media/zifro-playground_high.mp4" type="video/mp4" />
-                        Din webbläsare kan ej visa denna video.
-                    </video>
+                    <div class="row">
+                        <div class="col-md-4 mx-auto text-center">
+                            <h1>360</h1>
+                            <h5>lärare från 71 kommuner har testat ZIFRO</h5>
+                        </div>
+                        <div class="col-md-4 mx-auto text-center">
+                            <h1>200 000+</h1>
+                            <h5>rader har kodats i ZIFRO PLAYGROUND</h5>
+                        </div>
+                        <div class="col-md-4 mx-auto text-center">
+                            <h1>93</h1>
+                            <h5>banor finns hittills i ZIFRO PLAYGROUND</h5>
+                        </div>
+                    </div>
+
                 </div>
-                <!-- div below will only be displayed if there is a error when playing video -->
-                <div id="video-backup" style="display: none">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-z-dark text-white" id="why-zifro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+
+                    <h2 class="section-title"> Varför ska jag använda ZIFRO? </h2>
+
+                    <div class="row m-4 align-items-center">
+                        <div class="col-md-2 text-center pb-3">
+                            <i class="fas fa-clock fa-4x animate-hover"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h5 style="text-transform: uppercase;">SPARA TID</h5>
+                            <p>Välj mellan våra kompletta aktiviteter och spara förberedelsetid.</p>
+                        </div>
+                    </div>
+                    <div class="row m-4 align-items-center">
+                        <div class="col-md-2 text-center pb-3">
+                            <i class="fas fa-star fa-4x animate-hover"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h5 style="text-transform: uppercase;">LÄR DIG PÅ VÄGEN</h5>
+                            <p>Om du inte redan känner dig bekväm med programmering, så kommer du att lära dig
+                                tillsammans med dina elever.</p>
+                        </div>
+                    </div>
+                    <div class="row m-4 align-items-center">
+                        <div class="col-md-2 text-center pb-3">
+                            <i class="fas fa-rocket fa-4x animate-hover"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h5 style="text-transform: uppercase;">INGET INLOGG</h5>
+                            <p> Nu krävs inte längre något inlogg för att kunna använda ZIFRO PLAYGROUND och ZIFRO
+                                TEACHER.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="playground" style="padding-bottom: 25px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+
+                    <h2 class="section-title" style="color: var(--playground-color)">
+                        ZIFRO PLAYGROUND
+                    </h2>
+
+                    <h6 class="section-subtitle">
+                        Eleverna får mycket visuellt stöd för att förstå programmeringen.
+                    </h6>
+
+                    <div class="video-container">
+                        <video muted loop id="playground-demo" class="playground-info-video" allow="autoplay">
+                            <source src="media/zifro-playground_high.mp4" type="video/mp4" />
+                            Din webbläsare kan ej visa denna video.
+                        </video>
+                    </div>
+                    <!-- div below will only be displayed if there is a error when playing video -->
+                    <div id="video-backup" style="display: none">
                         <div class="row">
                             <div class="col-md-5">
                                 <img src="media/playground_ide.svg" alt="programmering i playground">
                             </div>
                             <div class="col-md-7 d-flex align-items-center">
                                 <ul>
-                                    <li><p>Eleverna kodar i programmeringsspråket Python</p></li>
-                                    <li><p>Tydligt hur koden körs m.h.a. "the notional machine"</p></li>
-                                    <li><p>Fel i koden ger snälla & konstruktiva felmeddelanden</p></li>
+                                    <li>
+                                        <p>Eleverna kodar i programmeringsspråket Python</p>
+                                    </li>
+                                    <li>
+                                        <p>Tydligt hur koden körs m.h.a. "the notional machine"</p>
+                                    </li>
+                                    <li>
+                                        <p>Fel i koden ger snälla & konstruktiva felmeddelanden</p>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
-                            
+
                         <div class="row">
                             <div class="col-md-9 d-flex align-items-center">
                                 <ul>
-                                    <li><p>Problemen som ska lösas visualiseras med hjälp av 3D-grafik</p></li>
-                                    <li><p>Matematik och programmering varvas i problemlösningen</p></li>
-                                    <li><p>Problemen utgår ifrån temat "en hållbar framtid"</p></li>
+                                    <li>
+                                        <p>Problemen som ska lösas visualiseras med hjälp av 3D-grafik</p>
+                                    </li>
+                                    <li>
+                                        <p>Matematik och programmering varvas i problemlösningen</p>
+                                    </li>
+                                    <li>
+                                        <p>Problemen utgår ifrån temat "en hållbar framtid"</p>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="col-md-3">
-                                <img src="media/forspelet_ikon.png" alt="aktivitet i playground" class="rounded float-right" width="100%">
+                                <img src="media/forspelet_ikon.png" alt="aktivitet i playground"
+                                    class="rounded float-right" width="100%">
                             </div>
                         </div>
                     </div>
 
-                <script>
-                    $.fn.isHalfInViewport = function() {
-                        var elementTop = $(this).offset().top;
-                        var elementCenter = elementTop + $(this).outerHeight()/2;
+                    <script>
+                        $.fn.isHalfInViewport = function () {
+                            var elementTop = $(this).offset().top;
+                            var elementCenter = elementTop + $(this).outerHeight() / 2;
 
-                        var viewportTop = $(window).scrollTop();
-                        var viewportBottom = viewportTop + $(window).height();
+                            var viewportTop = $(window).scrollTop();
+                            var viewportBottom = viewportTop + $(window).height();
 
-                        return elementCenter >= viewportTop && elementCenter <= viewportBottom;
-                    };
+                            return elementCenter >= viewportTop && elementCenter <= viewportBottom;
+                        };
 
-                    $(window).on('resize scroll', function () {
-                        $('#playground-demo').each(function() {
-                            if ($(this).isHalfInViewport()) {
-                                $(this)[0].play();
-                            } else {
-                                $(this)[0].pause();
-                            }
+                        $(window).on('resize scroll', function () {
+                            $('#playground-demo').each(function () {
+                                if ($(this).isHalfInViewport()) {
+                                    $(this)[0].play();
+                                } else {
+                                    $(this)[0].pause();
+                                }
+                            });
                         });
-                    });
 
-                    $('video source').last().on('error', function() {
-                        $('#video-backup').show();
-                        $('.video-container').hide();
-                    });
-                </script>
-            </div>
-        </div>    
-    </div>
-</section>
-
-<section id="teacher">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 mx-auto">
-
-                <h2 class="section-title" style="color: var(--teacher-color)"> 
-                    ZIFRO TEACHER
-                </h2>
-
-                <h6 class="section-subtitle mb-4">
-                    Lärarna har allt material och stöd de behöver samlat på en plats.
-                </h6>
-                
-                <div class="row justify-content-around">
-                    
-                    <div class="col-lg-4 text-center">
-                        <div class="icon-wrapper d-flex align-items-end mb-4">
-                            <img src="media/teacher_ft_codeguide.svg" alt="codeguide-icon" class="center" height="120px">
-                        </div>
-                        <h4>Kodguide</h4>
-                        <p>Med kodguiden har du som lärare möjlighet att fördjupa dig i kodkoncepten inför lektionerna.</p>
-                    </div>
-                    
-                    <div class="col-lg-4 text-center">
-                        <div class="icon-wrapper d-flex align-items-end mb-4">
-                            <img src="media/teacher_ft_activities.svg" alt="activity-icon" class="center" height="140px">
-                        </div>
-                        <h4>Aktiviteter</h4>
-                        <p>Det finns färdiga handledningar för varje aktivitet, så att det är enkelt och smidigt för lärare att hålla i en lektion i programmering.</p>
-                    </div>
-                    
-                    <div class="col-lg-4 text-center">
-                        <div class="icon-wrapper d-flex align-items-end mb-4">
-                            <img src="media/teacher_ft_results.svg" alt="results-icon" class="center" height="110px">
-                        </div>
-                        <h4>Resultat*</h4>
-                        <p>Följ elevernas utveckling i realtid och se vilka koncept som klassen har svårare för.<strong>*Ej tillgängligt utan konton.</strong> </p>
-                    </div>
-                    
+                        $('video source').last().on('error', function () {
+                            $('#video-backup').show();
+                            $('.video-container').hide();
+                        });
+                    </script>
                 </div>
-                
             </div>
-        </div>    
-    </div>
-</section>
+        </div>
+    </section>
+
+    <section id="teacher">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+
+                    <h2 class="section-title" style="color: var(--teacher-color)">
+                        ZIFRO TEACHER
+                    </h2>
+
+                    <h6 class="section-subtitle mb-4">
+                        Lärarna har allt material och stöd de behöver samlat på en plats.
+                    </h6>
+
+                    <div class="row justify-content-around">
+
+                        <div class="col-lg-4 text-center">
+                            <div class="icon-wrapper d-flex align-items-end mb-4">
+                                <img src="media/teacher_ft_codeguide.svg" alt="codeguide-icon" class="center"
+                                    height="120px">
+                            </div>
+                            <h4>Kodguide</h4>
+                            <p>Med kodguiden har du som lärare möjlighet att fördjupa dig i kodkoncepten inför
+                                lektionerna.</p>
+                        </div>
+
+                        <div class="col-lg-4 text-center">
+                            <div class="icon-wrapper d-flex align-items-end mb-4">
+                                <img src="media/teacher_ft_activities.svg" alt="activity-icon" class="center"
+                                    height="140px">
+                            </div>
+                            <h4>Aktiviteter</h4>
+                            <p>Det finns färdiga handledningar för varje aktivitet, så att det är enkelt och smidigt för
+                                lärare att hålla i en lektion i programmering.</p>
+                        </div>
+
+                        <div class="col-lg-4 text-center">
+                            <div class="icon-wrapper d-flex align-items-end mb-4">
+                                <img src="media/teacher_ft_results.svg" alt="results-icon" class="center"
+                                    height="110px">
+                            </div>
+                            <h4>Resultat*</h4>
+                            <p>Följ elevernas utveckling i realtid och se vilka koncept som klassen har svårare
+                                för.<strong>*Ej tillgängligt utan konton.</strong> </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
-<section id="quotes" class="thin-section bg-z-purple text-white">
-    <div class="container">
-        <div class="row">
+    <section id="quotes" class="thin-section bg-z-purple text-white">
+        <div class="container">
+            <div class="row">
 
-            <div class="col-md-10 mx-auto">
-            
-                <h2 class="section-title mb-4">
-                    
-                </h2>
-            
-                <div class="row">
+                <div class="col-md-10 mx-auto">
+
+                    <h2 class="section-title mb-4">
+
+                    </h2>
+
+                    <div class="row">
                         <div class="quote-item col-lg-4 mx-auto text-center">
                             <blockquote class="blockquote">
                                 <p class="mb-3">
                                     <i class="fas fa-quote-left mr-2 text-light-opac"></i>
-                                    Bra lektion! Trodde aldrig jag skulle kunna f&#229; ett intresse f&#246;r programmering :)
+                                    Bra lektion! Trodde aldrig jag skulle kunna f&#229; ett intresse f&#246;r
+                                    programmering :)
                                     <i class="fas fa-quote-right ml-2 text-light-opac"></i>
                                 </p>
                                 <footer class="blockquote-footer text-white">
@@ -362,7 +395,8 @@
                             <blockquote class="blockquote">
                                 <p class="mb-3">
                                     <i class="fas fa-quote-left mr-2 text-light-opac"></i>
-                                    Tycker att det h&#228;r &#228;r superbra! L&#228;ngtar efter att testa ZIFRO med eleverna!
+                                    Tycker att det h&#228;r &#228;r superbra! L&#228;ngtar efter att testa ZIFRO med
+                                    eleverna!
                                     <i class="fas fa-quote-right ml-2 text-light-opac"></i>
                                 </p>
                                 <footer class="blockquote-footer text-white">
@@ -382,219 +416,239 @@
                                 </footer>
                             </blockquote>
                         </div>
+                    </div>
+
                 </div>
-                
-            </div>
-        </div>    
-    </div>
-</section>
-
-
-
-<section class="bg-z-dark text-white" id="about-us-story">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 mx-auto">
-
-                <h2 class="section-title mb-4 text-center">
-                    V&#197;R STORY
-                </h2>
-
-                <ul class="timeline">
-                    <li class="">
-                        <div class="timeline-image">
-                            <h4>
-                                <strong>
-                                    OKT 2016
-                                </strong>
-                            </h4>
-                            <img class="rounded-circle img-fluid" src="media/zifro_story_1.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h3 class="subheading"> 
-                                    Tanken v&#228;cks
-                                </h3>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-white"> 
-                                    <p><strong>Sara, Jonathan och Fredrik</strong> undervisar i programmering och diskuterar mycket vilka trösklar som verkar finnas alla som börjar koda. Fredrik bestämmer sig för att ta fram en prototyp för en kodmiljö som kan coacha nybörjaren.</p>
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                <strong>
-                                    MAJ 2017
-                                </strong>
-                            </h4>
-                            <img class="rounded-circle img-fluid" src="media/zifro_story_2.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h3 class="subheading"> 
-                                    Lyckade test
-                                </h3>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-white"> 
-                                    <p>Efter en intensiv utvecklingsperiod görs nu tester med klasser på skolor. En tidig version av ZIFRO PLAYGROUND är på plats, samtidigt som den reviderade läroplanen med programmering antas.</p>
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="">
-                        <div class="timeline-image">
-                            <h4>
-                                <strong>
-                                    OKT 2017
-                                </strong>
-                            </h4>
-                            <img class="rounded-circle img-fluid" src="media/zifro_story_3.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h3 class="subheading"> 
-                                    Nya aktiviteter
-                                </h3>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-white"> 
-                                    <p>Under hösten jobbades det hårt med att utveckla fler aktiviteter anpassade till läroplanen med högstadiet i fokus. Vi utförde tester med över <strong>400 elever</strong> och undersökte vad lärare vill ha för material för att kunna hålla i lektioner.</p>
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                <strong>
-                                    MARS 2018
-                                </strong>
-                            </h4>
-                            <img class="rounded-circle img-fluid" src="media/zifro_story_4.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h3 class="subheading"> 
-                                    Release!
-                                </h3>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-white"> 
-                                    <p>Med ZIFRO TEACHER på plats kunde vi öppna upp för lärare runt om i Sverige att testa vårt läromedel i programmering och komma med idéer och feedback på hur vi ska utveckla läromedlet vidare. Vi får våra första pilotkunder.</p>
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="">
-                        <div class="timeline-image">
-                            <h4>
-                                <strong>
-                                    MAJ 2019
-                                </strong>
-                            </h4>
-                            <img class="rounded-circle img-fluid" src="media/zifro_story_5.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h3 class="subheading"> 
-                                    Open Source!
-                                </h3>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-white"> 
-                                    <p>Vi gör Zifro Playground gratis att använda för alla och gör produkten Open Source, så att alla kan vara med och bidra till utvecklingen. </p>
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image">
-                            <h4><strong>NU</strong></h4>
-                        </div>
-                    </li>
-                </ul>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section id="CTA" class="thin-section bg-z-purple text-white">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 mx-auto">
 
-                <h2 class="section-title"> Använd Zifro i eller utanför klassrummet</h2>
-                
-                <p><p>Sedan den 1:a juli 2018 är programmering en del av läroplanen, vilket har satt en stor press på Sveriges lärare och skolor. Vi bakom ZIFRO har utvecklat uppgifter och material för att hjälpa dig som lärare att komma igång med textbaserad programmering i klassrummet. </p>
 
-                <p>Det ska vara <strong>enkelt</strong>, <strong>roligt</strong> och <strong>givande</strong> att komma igång med programmering - för alla!</p></p>
-                    
+    <section class="bg-z-dark text-white" id="about-us-story">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+
+                    <h2 class="section-title mb-4 text-center">
+                        V&#197;R STORY
+                    </h2>
+
+                    <ul class="timeline">
+                        <li class="">
+                            <div class="timeline-image">
+                                <h4>
+                                    <strong>
+                                        OKT 2016
+                                    </strong>
+                                </h4>
+                                <img class="rounded-circle img-fluid" src="media/zifro_story_1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3 class="subheading">
+                                        Tanken v&#228;cks
+                                    </h3>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-white">
+                                    <p><strong>Sara, Jonathan och Fredrik</strong> undervisar i programmering och
+                                        diskuterar mycket vilka trösklar som verkar finnas alla som börjar koda. Fredrik
+                                        bestämmer sig för att ta fram en prototyp för en kodmiljö som kan coacha
+                                        nybörjaren.</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>
+                                    <strong>
+                                        MAJ 2017
+                                    </strong>
+                                </h4>
+                                <img class="rounded-circle img-fluid" src="media/zifro_story_2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3 class="subheading">
+                                        Lyckade test
+                                    </h3>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-white">
+                                    <p>Efter en intensiv utvecklingsperiod görs nu tester med klasser på skolor. En
+                                        tidig version av ZIFRO PLAYGROUND är på plats, samtidigt som den reviderade
+                                        läroplanen med programmering antas.</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="timeline-image">
+                                <h4>
+                                    <strong>
+                                        OKT 2017
+                                    </strong>
+                                </h4>
+                                <img class="rounded-circle img-fluid" src="media/zifro_story_3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3 class="subheading">
+                                        Nya aktiviteter
+                                    </h3>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-white">
+                                    <p>Under hösten jobbades det hårt med att utveckla fler aktiviteter anpassade till
+                                        läroplanen med högstadiet i fokus. Vi utförde tester med över <strong>400
+                                            elever</strong> och undersökte vad lärare vill ha för material för att kunna
+                                        hålla i lektioner.</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>
+                                    <strong>
+                                        MARS 2018
+                                    </strong>
+                                </h4>
+                                <img class="rounded-circle img-fluid" src="media/zifro_story_4.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3 class="subheading">
+                                        Release!
+                                    </h3>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-white">
+                                    <p>Med ZIFRO TEACHER på plats kunde vi öppna upp för lärare runt om i Sverige att
+                                        testa vårt läromedel i programmering och komma med idéer och feedback på hur vi
+                                        ska utveckla läromedlet vidare. Vi får våra första pilotkunder.</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="timeline-image">
+                                <h4>
+                                    <strong>
+                                        MAJ 2019
+                                    </strong>
+                                </h4>
+                                <img class="rounded-circle img-fluid" src="media/zifro_story_5.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3 class="subheading">
+                                        Open Source!
+                                    </h3>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-white">
+                                    <p>Vi gör Zifro Playground gratis att använda för alla och gör produkten Open
+                                        Source, så att alla kan vara med och bidra till utvecklingen. </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <h4><strong>NU</strong></h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="thin-section" id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 mx-auto">
+    <section id="CTA" class="thin-section bg-z-purple text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
 
-                <h2 class="section-title"> Var med och utveckla Zifro Playground </h2>
-                
-                <div>
-                    <p>Sedan våren 2019 är Zifro Playground under en Open Source-licens och det är fritt för alla att använda produkten. Vill du vara med och utveckla en läromiljö för programmering vidare? <a href="https://github.com/zifro-playground"><strong>Välkommen till Github!</strong></a></p>
-                    
-                    <span style="font-size: 4rem;">
-                        <a href="https://github.com/zifro-playground" target="_blank"><i class="fab fa-github"></i></a>
-                    </span>
+                    <h2 class="section-title"> Använd Zifro i eller utanför klassrummet</h2>
+
+                    <p>
+                    <p>Sedan den 1:a juli 2018 är programmering en del av läroplanen, vilket har satt en stor press på
+                        Sveriges lärare och skolor. Vi bakom ZIFRO har utvecklat uppgifter och material för att hjälpa
+                        dig som lärare att komma igång med textbaserad programmering i klassrummet. </p>
+
+                    <p>Det ska vara <strong>enkelt</strong>, <strong>roligt</strong> och <strong>givande</strong> att
+                        komma igång med programmering - för alla!</p>
+                    </p>
+
                 </div>
-                
             </div>
-        </div>    
-    </div>
-</section>
+        </div>
+    </section>
+
+    <section class="thin-section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+
+                    <h2 class="section-title"> Var med och utveckla Zifro Playground </h2>
+
+                    <div>
+                        <p>Sedan våren 2019 är Zifro Playground under en Open Source-licens och det är fritt för alla
+                            att använda produkten. Vill du vara med och utveckla en läromiljö för programmering vidare?
+                            <a href="https://github.com/zifro-playground"><strong>Välkommen till Github!</strong></a>
+                        </p>
+
+                        <span style="font-size: 4rem;">
+                            <a href="https://github.com/zifro-playground" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- Footer -->
     <footer class="py-5 bg-z-dark2 text-gray">
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 mx-auto" style="opacity: 0.7;">
-                <div class="row align-items-center">
-                    <div class="col-sm-6 text-left">
-                        <h4 class="mb-2">
-                            <a href="https://www.instagram.com/zifro.se/" class="text-gray" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="https://www.facebook.com/zifro.se/" class="text-gray" target="_blank">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/company/zifro/" class="text-gray" target="_blank">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                            <a href="https://github.com/zifro-playground" class="text-gray" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </h4>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 mx-auto" style="opacity: 0.7;">
+                    <div class="row align-items-center">
+                        <div class="col-sm-6 text-left">
+                            <h4 class="mb-2">
+                                <a href="https://www.instagram.com/zifro.se/" class="text-gray" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://www.facebook.com/zifro.se/" class="text-gray" target="_blank">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/company/zifro/" class="text-gray" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/zifro-playground" class="text-gray" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <p class="mb-0"> &copy; Zifro AB </p>
+                        </div>
                     </div>
-                    <div class="col-sm-6 text-right">
-                        <p class="mb-0"> &copy; Zifro AB </p>
-                    </div>
+
                 </div>
-                
             </div>
         </div>
-    </div>
-    
-</footer>
+
+    </footer>
 
     <script src="scripts/bootstrap.js"></script>
 
-  </body>
+</body>
 
 </html>
