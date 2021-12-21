@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zifro</title>
+    <link>https://zifro.se/</link>
+    <description>Recent content on Zifro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-se</language>
+    <lastBuildDate>Mon, 29 Nov 2021 21:27:44 +0100</lastBuildDate><atom:link href="https://zifro.se/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://zifro.se/posts/my-first-post/</link>
+      <pubDate>Mon, 29 Nov 2021 21:27:44 +0100</pubDate>
+      
+      <guid>https://zifro.se/posts/my-first-post/</guid>
+      <description>My first post! Hello world!</description>
+    </item>
+    
+    <item>
+      <title>Leveransvillkor</title>
+      <link>https://zifro.se/leveransvillkor/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://zifro.se/leveransvillkor/</guid>
+      <description>Dessa Leveransvillkor är en bilaga till Ramavtalet, som ingås i samband med inköp av Zifros tjänster.
+ Zifro och Kunden benämns individuellt som ”Part” och gemensamt som ”Parterna”.
+1. TJÄNSTEN 1.1. Zifro ska leverera Tjänsten till Kunden under löptiden, samt fullgöra eventuella övriga åtaganden till Kunden, i enlighet med Avtalet.
+1.2. Zifro tillhandahåller en molnbaserad tjänst, med syfte att fungera som ett digitalt läromedel för att planera, genomföra och utvärdera undervisning inom programmering med tillhörande texter, videos, övningar och material (”Tjänsten”).</description>
+    </item>
+    
+    <item>
+      <title>Användarvillkor</title>
+      <link>https://zifro.se/anvandarvillkor/</link>
+      <pubDate>Wed, 23 May 2018 13:15:48 +0100</pubDate>
+      
+      <guid>https://zifro.se/anvandarvillkor/</guid>
+      <description>Zifro AB, 556993-2261 (nedan kallad ”Zifro”) tillhandahåller en molnbaserad tjänst, med syfte att fungera som ett digitalt läromedel för att planera, genomföra och utvärdera undervisning inom programmering med tillhörande texter, videos, övningar och material (nedan kallad ”Tjänsten”). Tjänsten innefattar ZIFRO PLAYGROUND (www.zifro.se/playground) och ZIFRO TEACHER (www.zifro.se/teacher), samt övriga därtill relaterade tjänster.
+Genom att registrera ett användarkonto eller på annat sätt använda Tjänsten godkänner du dessa användarvillkor (”Villkoren”), som gäller för all användning av Tjänsten.</description>
+    </item>
+    
+    <item>
+      <title>Cookie policy</title>
+      <link>https://zifro.se/cookie-policy/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://zifro.se/cookie-policy/</guid>
+      <description>Cookies (“kakor” är en små textfiler som sparas lokalt på besökarens dator, telefon eller surfplatta vid besök på webbplatsen. Vid framtida besök på webbplatsen kommer besökarens webbläsare ge denna information till webbplatsen.
+Syftet med detta är att besökare inte ska behöva göra om inställningar eller inloggningar varje gång den går in på webbplatsen eller bläddrar mellan olika sidor.
+Hur Zifro använder Cookies På webbplatsen (www.zifro.se) används kakor för att
+  komma ihåg dina inställningar, t.</description>
+    </item>
+    
+    <item>
+      <title>Dataskyddspolicy</title>
+      <link>https://zifro.se/dataskyddspolicy/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://zifro.se/dataskyddspolicy/</guid>
+      <description>1. Generellt 1.1. Denna dataskyddspolicy innehåller information om hur Zifro AB, organisationsnummer 556993-2261, (”Zifro”, ”vi” eller ”oss”) behandlar personuppgifter.
+1.2. Zifro tillhandahåller en molnbaserad tjänst, med syfte att fungera som ett digitalt läromedel för att planera, genomföra och utvärdera undervisning inom programmering med tillhörande texter, videos, övningar och material (”Tjänsten”). Vid tillhandahållande av Tjänsten kommer Zifro att behandla personuppgifter. Zifro är personuppgiftsansvarig för den personuppgiftsbehandling som Zifro utför.
+1.3. Zifro kommer enbart samla in och behandla personuppgifter i enlighet med personuppgiftslagen (1998:204) eller dataskyddsförordningen (EU 2016/679) som gäller vid tidpunkten för behandlingen.</description>
+    </item>
+    
+    <item>
+      <title>Attans!</title>
+      <link>https://zifro.se/atkomst-nekad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zifro.se/atkomst-nekad/</guid>
+      <description>Du har inte åtkomst till sidan du försökte nå.
+Det kan bero på att:
+ Din kontotyp (elev, lärare, annat) inte kan se sidan. Prövotiden för ditt konto är slut.  Om något verkar ha blivit fel, maila info@zifro.se.
+Lycka till!
+/Zifro-teamet</description>
+    </item>
+    
+    <item>
+      <title>Hello World!</title>
+      <link>https://zifro.se/hello/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zifro.se/hello/</guid>
+      <description> Styr podden Räkna varorna Sortera varorna Chatbotten Miniräknaren Talföljder Delbarhet  </description>
+    </item>
+    
+    <item>
+      <title>Hoppsan!</title>
+      <link>https://zifro.se/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zifro.se/404/</guid>
+      <description>Sidan du försöker nå finns inte :-(
+Det är antingen för att:   Vi har kodat hemsidan fel – vi ber om ursäkt i så fall! Maila gärna info@zifro.se så att vi får reda på det.   Du har använt en länk som inte finns längre.
+  Testa att gå till förstasidan så hoppas vi att du hittar rätt!
+/Zifro-teamet</description>
+    </item>
+    
+    <item>
+      <title>Introkurs till programmering (beta)</title>
+      <link>https://zifro.se/beta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zifro.se/beta/</guid>
+      <description>Tack för att du vill vara med i detta beta-test!
+ Information om kursen och beta-testet   Kursen är uppdelad i tre moduler, där varje modul består av förklarande text och videor samt en interaktiv modul där du själv får koda i Python.
+  De interaktiva momenten i Zifro Playground behöver göras ifrån en device med tangentbord (förslagsvis laptop). Alla moderna webbläsare ska fungera (vi rekommenderar Chrome, Mozilla Firefox eller Edge).</description>
+    </item>
+    
+    <item>
+      <title>Join us</title>
+      <link>https://zifro.se/join-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zifro.se/join-us/</guid>
+      <description> Please send us an email at info@zifro.se – we&amp;rsquo;re always open to having a coffee with potential team members!
+ </description>
+    </item>
+    
+    <item>
+      <title>Licens saknas</title>
+      <link>https://zifro.se/licens-saknas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zifro.se/licens-saknas/</guid>
+      <description>Ditt konto saknar en giltig licens för att använda ZIFRO.
+Det kan bero på att licensen har gått ut eller att det aldrig funnits någon.
+För kunna fortsätta koda så snart som möjligt kan du antingen:
+ kontakta skoladministratören som via Skolon kan aktivera en licens åt dig eller kontakta help@zifro.se så hjälper vi dig!  </description>
+    </item>
+    
+    <item>
+      <title>Något gick fel</title>
+      <link>https://zifro.se/naagot-gick-fel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zifro.se/naagot-gick-fel/</guid>
+      <description>Något gick fel när sidan skulle laddas in.
+För att lösa detta kan du:
+ testa att ladda om sidan testa att börja om på zifro.se eller kontakta help@zifro.se så hjälper vi dig!  </description>
+    </item>
+    
+    <item>
+      <title>Om ZIFRO och GDPR</title>
+      <link>https://zifro.se/gdpr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zifro.se/gdpr/</guid>
+      <description>Här samlar vi information som rör ditt användande av ZIFRO och GDPR. Om frågor kvarstår, är du varmt välkommen att maila oss på info@zifro.se.
+Avtal och villkor   Användarvillkor – dessa godkänns av användaren vid registrering på www.zifro.se
+  Dataskyddspolicy – här kan du (bl.a.) läsa hur, när och varför Zifro hanterar personuppgifter
+  Kundavtal – detta tecknas mellan kund (skola) och Zifro vid köp av tjänsten</description>
+    </item>
+    
+    <item>
+      <title>Personuppgiftspolicy</title>
+      <link>https://zifro.se/personuppgiftspolicy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zifro.se/personuppgiftspolicy/</guid>
+      <description>Denna policy har ersatts av vår Dataskyddspolicy
+ Personuppgiftspolicy för Zifro AB, organisationsnummer 556993-2261 (”Zifro”).
+Kontaktuppgifter Kontaktperson: Sara Danielsson E-post: personuppgifter@zifro.se
+Postadress: c/o KTH Innovation, Lindstedtsvägen 24, 114 28 Stockholm
+ Inledning För att kunna erbjuda en smidig tjänst för elever och lärare (“användare”) hanterar vi personuppgifter. Det är viktigt för oss att personuppgifterna behandlas korrekt och säkert och att vi är transparenta med vilka uppgifter vi hanterar. Vid frågor kring Zifros behandling av personupppgifter, var god kontakta oss på e-postadressen ovan.</description>
+    </item>
+    
+    <item>
+      <title>Studiedag Alfaskolan</title>
+      <link>https://zifro.se/studiedag-alfaskolan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zifro.se/studiedag-alfaskolan/</guid>
+      <description>Länkar   Kursplan matematik – I denna pdf finns ändringarna i kursplanen markerade med röd text
+  Direktlänk till code.org – För miniworkshop i blockprogrammering
+  (Kurs 3 på code.org)(https://studio.code.org/s/course3) – För miniworkshop i blockprogrammering
+  Resurser – Här finns en sammanställning av resurser till dig som lärare för åk 1–9
+  Övningar   Övning – Centralt innehåll – Gå igenom kursplanen (länk ovan) och fyll i innehållet som relaterar till programmering för de olika stadierna.</description>
+    </item>
+    
+  </channel>
+</rss>
