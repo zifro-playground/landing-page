@@ -57,7 +57,7 @@ header {
 	padding: 125px 0 75px 0;
 }
 .header-homepage {
-    background-image: url("/media/1062/header_background.png");
+    background-image: url("../../static/media/header_background.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -68,7 +68,7 @@ header {
     background-size: cover;
 }
 .header-campaign-page {
-    background-image: url("/media/1062/header_background.png");
+    background-image: url("../../static/media/header_background.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
