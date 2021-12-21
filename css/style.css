@@ -112,12 +112,14 @@ header {
 }
 .header-title {
     margin-bottom: 2rem!important;
-    font-weight: 600;
-    text-shadow: 0px 0px 15px rgba(49, 76, 83, 0.5);
+    text-shadow: 0px 0px 15px rgba(49, 76, 83, 0.7);
+    line-height: 140%;
 }
 .header-subtitle {
     font-size: 1.5rem;
-    text-shadow: 0px 0px 15px rgba(49, 76, 83, 0.5);
+    text-shadow: 0px 0px 15px rgba(49, 76, 83, 0.7);
+    font-weight: 500;
+    line-height: 160%;
 }
 iframe {
 	margin: 0;
@@ -148,6 +150,7 @@ section {
 }
 h1, h2, h3, h4, h5 {
 	font-family: Raleway, Courier, sans-serif;
+    font-weight: 600;
 }
 a, .btn-link{
 	color: var(--zifro-purple);
