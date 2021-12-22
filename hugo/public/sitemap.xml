@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zifro.se/playground/</loc>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zifro.se/playground/01-test/</loc>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zifro.se/</loc>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://zifro.se/posts/my-first-post/</loc>
     <lastmod>2021-11-29T21:27:44+01:00</lastmod>
   </url><url>
     <loc>https://zifro.se/posts/</loc>
-    <lastmod>2021-11-29T21:27:44+01:00</lastmod>
-  </url><url>
-    <loc>https://zifro.se/</loc>
     <lastmod>2021-11-29T21:27:44+01:00</lastmod>
   </url><url>
     <loc>https://zifro.se/leveransvillkor/</loc>
@@ -23,19 +29,9 @@
     <loc>https://zifro.se/dataskyddspolicy/</loc>
     <lastmod>2018-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zifro.se/atkomst-nekad/</loc>
-  </url><url>
     <loc>https://zifro.se/categories/</loc>
   </url><url>
-    <loc>https://zifro.se/hello/</loc>
-  </url><url>
     <loc>https://zifro.se/404/</loc>
-  </url><url>
-    <loc>https://zifro.se/beta/</loc>
-  </url><url>
-    <loc>https://zifro.se/join-us/</loc>
-  </url><url>
-    <loc>https://zifro.se/licens-saknas/</loc>
   </url><url>
     <loc>https://zifro.se/naagot-gick-fel/</loc>
   </url><url>
@@ -43,10 +39,8 @@
   </url><url>
     <loc>https://zifro.se/personuppgiftspolicy/</loc>
   </url><url>
-    <loc>https://zifro.se/playground/</loc>
-  </url><url>
-    <loc>https://zifro.se/studiedag-alfaskolan/</loc>
-  </url><url>
     <loc>https://zifro.se/tags/</loc>
+  </url><url>
+    <loc>https://zifro.se/playground/02-test/</loc>
   </url>
 </urlset>

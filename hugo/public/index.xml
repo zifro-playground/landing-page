@@ -6,7 +6,16 @@
     <description>Recent content on Zifro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
-    <lastBuildDate>Mon, 29 Nov 2021 21:27:44 +0100</lastBuildDate><atom:link href="https://zifro.se/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zifro.se/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testpage no 1</title>
+      <link>https://zifro.se/playground/01-test/</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zifro.se/playground/01-test/</guid>
+      <description>This is a test page Hello from test markdown page!</description>
+    </item>
+    
     <item>
       <title>My First Post</title>
       <link>https://zifro.se/posts/my-first-post/</link>
@@ -62,28 +71,6 @@ Hur Zifro använder Cookies På webbplatsen (www.zifro.se) används kakor för a
     </item>
     
     <item>
-      <title>Attans!</title>
-      <link>https://zifro.se/atkomst-nekad/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zifro.se/atkomst-nekad/</guid>
-      <description>Du har inte åtkomst till sidan du försökte nå.
-Det kan bero på att:
- Din kontotyp (elev, lärare, annat) inte kan se sidan. Prövotiden för ditt konto är slut.  Om något verkar ha blivit fel, maila info@zifro.se.
-Lycka till!
-/Zifro-teamet</description>
-    </item>
-    
-    <item>
-      <title>Hello World!</title>
-      <link>https://zifro.se/hello/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zifro.se/hello/</guid>
-      <description> Styr podden Räkna varorna Sortera varorna Chatbotten Miniräknaren Talföljder Delbarhet  </description>
-    </item>
-    
-    <item>
       <title>Hoppsan!</title>
       <link>https://zifro.se/404/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -93,39 +80,6 @@ Lycka till!
 Det är antingen för att:   Vi har kodat hemsidan fel – vi ber om ursäkt i så fall! Maila gärna info@zifro.se så att vi får reda på det.   Du har använt en länk som inte finns längre.
   Testa att gå till förstasidan så hoppas vi att du hittar rätt!
 /Zifro-teamet</description>
-    </item>
-    
-    <item>
-      <title>Introkurs till programmering (beta)</title>
-      <link>https://zifro.se/beta/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zifro.se/beta/</guid>
-      <description>Tack för att du vill vara med i detta beta-test!
- Information om kursen och beta-testet   Kursen är uppdelad i tre moduler, där varje modul består av förklarande text och videor samt en interaktiv modul där du själv får koda i Python.
-  De interaktiva momenten i Zifro Playground behöver göras ifrån en device med tangentbord (förslagsvis laptop). Alla moderna webbläsare ska fungera (vi rekommenderar Chrome, Mozilla Firefox eller Edge).</description>
-    </item>
-    
-    <item>
-      <title>Join us</title>
-      <link>https://zifro.se/join-us/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zifro.se/join-us/</guid>
-      <description> Please send us an email at info@zifro.se – we&amp;rsquo;re always open to having a coffee with potential team members!
- </description>
-    </item>
-    
-    <item>
-      <title>Licens saknas</title>
-      <link>https://zifro.se/licens-saknas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zifro.se/licens-saknas/</guid>
-      <description>Ditt konto saknar en giltig licens för att använda ZIFRO.
-Det kan bero på att licensen har gått ut eller att det aldrig funnits någon.
-För kunna fortsätta koda så snart som möjligt kan du antingen:
- kontakta skoladministratören som via Skolon kan aktivera en licens åt dig eller kontakta help@zifro.se så hjälper vi dig!  </description>
     </item>
     
     <item>
@@ -165,16 +119,12 @@ Postadress: c/o KTH Innovation, Lindstedtsvägen 24, 114 28 Stockholm
     </item>
     
     <item>
-      <title>Studiedag Alfaskolan</title>
-      <link>https://zifro.se/studiedag-alfaskolan/</link>
+      <title>Testpage no 1</title>
+      <link>https://zifro.se/playground/02-test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zifro.se/studiedag-alfaskolan/</guid>
-      <description>Länkar   Kursplan matematik – I denna pdf finns ändringarna i kursplanen markerade med röd text
-  Direktlänk till code.org – För miniworkshop i blockprogrammering
-  (Kurs 3 på code.org)(https://studio.code.org/s/course3) – För miniworkshop i blockprogrammering
-  Resurser – Här finns en sammanställning av resurser till dig som lärare för åk 1–9
-  Övningar   Övning – Centralt innehåll – Gå igenom kursplanen (länk ovan) och fyll i innehållet som relaterar till programmering för de olika stadierna.</description>
+      <guid>https://zifro.se/playground/02-test/</guid>
+      <description>This is another test page Hello there</description>
     </item>
     
   </channel>
