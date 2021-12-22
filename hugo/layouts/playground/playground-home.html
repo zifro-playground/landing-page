@@ -4,8 +4,20 @@
     <body id="page-top">
         {{- partial "nav.html" . -}}
 
-        Hello from playground home layout
+        {{ .Content }}
+
+        <div class="posts">
+            {{ range .Pages }}
+                <div class="post">
+                    A page: {{ .Title }}
+                    <a class="btn btn-primary" href="{{ .URL }}">
+                        {{ .Title }}
+                    </a>
+                </div>
+            {{ end }}
+        </div>
 
         {{- partial "footer.html" . -}}
+        
     </body>
 </html>
