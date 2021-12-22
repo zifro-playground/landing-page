@@ -1,5 +1,7 @@
-baseURL = 'https://zifro.se/hugo/public/'
+baseURL = 'https://zifro.se/'
 title = 'Zifro'
+
+relativeURLs = true
 
 languageCode = 'sv-se'
 defaultContentLanguage = 'sv-se'
