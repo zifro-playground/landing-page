@@ -2,19 +2,26 @@
 <html>
     {{- partial "head.html" . -}}
     <body id="page-top">
+        
         {{- partial "nav.html" . -}}
+        
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        {{ .Content }}
+                        {{ range .Pages }}
+                            <div style="margin-bottom: 0.75rem;">
+                                <a class="btn btn-primary" href="{{ .URL }}">
+                                    {{ .Title }}
+                                </a>
+                            </div>
+                        {{ end }}
 
-        {{ .Content }}
-
-        <div class="posts">
-            {{ range .Pages }}
-                <div class="post">
-                    <a class="btn btn-primary" href="{{ .URL }}">
-                        {{ .Title }}
-                    </a>
+                    </div>
                 </div>
-            {{ end }}
-        </div>
+            </div>
+        </section>
 
         {{- partial "footer.html" . -}}
 
