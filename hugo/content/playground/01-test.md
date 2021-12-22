@@ -1,6 +1,6 @@
 ---
 title: "Testpage no 1"
-headerColor: orange
+headerColor: green
 date: 2021-12-22
 ---
 

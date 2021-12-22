@@ -1,5 +1,5 @@
 ---
-title: "Testpage no 1"
+title: "Testpage no 2"
 headerColor: green
 ---
 
