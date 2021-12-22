@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zifro.se/playground/</loc>
-    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://zifro.se/playground/01-test/</loc>
     <lastmod>2021-12-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zifro.se/</loc>
+    <lastmod>2021-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zifro.se/playground/</loc>
     <lastmod>2021-12-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zifro.se/posts/my-first-post/</loc>

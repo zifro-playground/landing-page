@@ -4,15 +4,19 @@
     <body id="page-top">
         
         {{- partial "nav.html" . -}}
+
+        {{- partial "header.html" . -}}
         
         <section>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
-                        {{ .Content }}
+                        <div style="margin-bottom: 2rem;">
+                            {{ .Content }}
+                        </div>
                         {{ range .Pages }}
-                            <div style="margin-bottom: 0.75rem;">
-                                <a class="btn btn-primary" href="{{ .URL }}">
+                            <div style="margin-bottom: 1rem;">
+                                <a class="btn btn-primary" href="{{ .Permalink }}">
                                     {{ .Title }}
                                 </a>
                             </div>

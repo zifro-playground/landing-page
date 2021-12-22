@@ -1,9 +1,10 @@
 ---
-title: Playground Home Page
+title: Zifro Playground
 type: playground
 layout: playground-home
+headerColor: green
 ---
 
-# Välkommen till Zifro Playground
+### Välkommen hit :) 
 
 Här finns våra aktiviteter där du får träna på att koda och lösa problem!
