@@ -1,0 +1,14 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        {{ template "breadcrumbnav" (dict "p1" .) }}
+    </ol>
+</nav>
+
+{{ define "breadcrumbnav" }}
+    <li class="breadcrumb-item">
+        <a href="{{ .p1.Parent.Permalink }}">{{ .p1.Parent.Title }}</a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">
+        {{ .p1.Title }}
+    </li>
+{{ end }}
