@@ -1,4 +1,4 @@
-baseURL = 'https://zifro.se/'
+baseURL = 'https://zifro.se/hugo/public'
 title = 'Zifro'
 
 languageCode = 'sv-se'
