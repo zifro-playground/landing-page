@@ -1,0 +1,5 @@
+# dont push hugo build output
+/public/
+
+# dont push hugo_build.lock and similar
+*.lock
