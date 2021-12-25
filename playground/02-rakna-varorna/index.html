@@ -56,10 +56,9 @@ Andra aktiviteten
 </nav>
 <h1 id=andra-aktiviteten>Andra aktiviteten</h1>
 <p>Beskrivning..</p>
-<p>Här laddas spelet</p>
 <script src=../../js/unity-progress.js></script>
-<script src=UnityLoader.js></script>
-<script>var gameInstance=UnityLoader.instantiate("liveGameContainer","Builds.json",{onProgress:UnityProgress})</script>
+<script src=../../unity-builds/02-rakna-varorna/UnityLoader.js></script>
+<script>var gamePath="/unity-builds/02-rakna-varorna/",gameInstance=UnityLoader.instantiate("liveGameContainer",gamePath+"Builds.json",{onProgress:UnityProgress})</script>
 <div class=webgl-content>
 <div id=liveGameContainer style=width:100%;height:401px></div>
 <div class=footer style=margin-top:1rem>
