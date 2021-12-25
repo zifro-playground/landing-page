@@ -16,16 +16,15 @@
                     {{- partial "breadcrumb.html" . -}}
 
                     {{ .Content }}
-
-                    <p>Här laddas spelet</p>
                     
-                        <!-- Unity Scripts-->
+                    <!-- Unity Scripts-->
                     <script src="/js/unity-progress.js"></script>
-                    <script src="UnityLoader.js"></script>
+                    <script src="/unity-builds/{{$.LinkTitle}}/UnityLoader.js"></script>
 
-                    <!-- Loading Unity (if build files in same dir) -->
+                    <!-- Loading Unity -->
                     <script>
-                        var gameInstance = UnityLoader.instantiate("liveGameContainer", "Builds.json", { onProgress: UnityProgress });
+                        var gamePath = "/unity-builds/" + {{ .LinkTitle }} + "/";
+                        var gameInstance = UnityLoader.instantiate("liveGameContainer", gamePath+"Builds.json", { onProgress: UnityProgress });
                     </script>
                     <div class="webgl-content">
                         <div id="liveGameContainer" style="width: 100%; height: 401px;"></div>
