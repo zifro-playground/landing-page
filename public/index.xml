@@ -6,14 +6,23 @@
     <description>Recent content on Zifro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
-    <lastBuildDate>Wed, 22 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zifro.se/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://zifro.se/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Testpage no 1</title>
+      <title>Första aktiviteten</title>
       <link>https://zifro.se/playground/01-test/</link>
       <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://zifro.se/playground/01-test/</guid>
-      <description>This is a test page Hello from test markdown page!</description>
+      <description>Första aktiviteten! En beskrivning av första aktiviteten :)</description>
+    </item>
+    
+    <item>
+      <title>Andra aktiviteten</title>
+      <link>https://zifro.se/playground/02-test/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://zifro.se/playground/02-test/</guid>
+      <description>Andra aktiviteten Beskrivning..</description>
     </item>
     
     <item>
@@ -116,15 +125,6 @@ Avtal och villkor   Användarvillkor – dessa godkänns av användaren vid reg
 Kontaktuppgifter Kontaktperson: Sara Danielsson E-post: personuppgifter@zifro.se
 Postadress: c/o KTH Innovation, Lindstedtsvägen 24, 114 28 Stockholm
  Inledning För att kunna erbjuda en smidig tjänst för elever och lärare (“användare”) hanterar vi personuppgifter. Det är viktigt för oss att personuppgifterna behandlas korrekt och säkert och att vi är transparenta med vilka uppgifter vi hanterar. Vid frågor kring Zifros behandling av personupppgifter, var god kontakta oss på e-postadressen ovan.</description>
-    </item>
-    
-    <item>
-      <title>Testpage no 2</title>
-      <link>https://zifro.se/playground/02-test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zifro.se/playground/02-test/</guid>
-      <description>This is another test page Hello there</description>
     </item>
     
   </channel>
