@@ -1,9 +1,11 @@
 ---
-title: "Testpage no 1"
+title: "Första aktiviteten"
+weight: 1 #order of activity
 headerColor: green
+layout: playground-activity
 date: 2021-12-22
 ---
 
-# This is a test page
+# Första aktiviteten!
 
-Hello from test markdown page!
+En beskrivning av första aktiviteten :)

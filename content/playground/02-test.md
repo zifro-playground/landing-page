@@ -1,8 +1,11 @@
 ---
-title: "Testpage no 2"
+title: "Andra aktiviteten"
+weight: 2 #order of activity
 headerColor: green
+layout: playground-activity
+date: 2021-12-23
 ---
 
-# This is another test page
+# Andra aktiviteten
 
-Hello there
+Beskrivning..

@@ -14,10 +14,8 @@
                         <div style="margin-bottom: 2rem;">
                             {{ .Content }}
                         </div>
-
-                        Funkar länkarna nu?
                         
-                        {{ range .Pages }}
+                        {{ range .Pages.ByWeight }}
                             <div style="margin-bottom: 1rem;">
                                 <a class="btn btn-primary" href="{{ .Permalink }}">
                                     {{ .Title }}
