@@ -1,6 +1,6 @@
 ---
 title: "Första aktiviteten"
-weight: 1 #order of activity
+linktitle: 01-styr-podden
 headerColor: green
 layout: playground-activity
 date: 2021-12-22

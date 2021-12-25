@@ -1,6 +1,6 @@
 ---
 title: "Andra aktiviteten"
-weight: 2 #order of activity
+linktitle: 02-styr-podden
 headerColor: green
 layout: playground-activity
 date: 2021-12-23
