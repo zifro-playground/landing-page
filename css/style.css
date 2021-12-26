@@ -128,17 +128,23 @@ section {
     min-height: 600px;
 	padding: 75px 0;
 }
+.thin-section {
+    min-height: 150px!important; 
+    padding: 75px 0;
+}
 .section-title{
     font-weight: 600;
 }
-.thin-section {
-    min-height: 150px!important; 
-	padding: 75px 0;
+.align-left {
+    float: left;
+}
+.align-right {
+    float: right;
 }
 .no-min-height{
     min-height: 0;
 }
-.sub-section { /* For some reason, this one is not called. */
+.sub-section {
 	margin: 2rem!important;
 }
 .breadcrumb-section {
@@ -206,6 +212,12 @@ a:hover, .btn-link:hover {
 .btn-secondary:hover {
 	background-color: rgb(150, 172, 179);
 	border-color: rgb(120, 140, 146);
+}
+.navbar-dark .btn{
+	color:#e6e6e6;
+}
+.navbar-dark .btn {
+	color:#e6e6e6;
 }
 .text-gray {
 	color: rgba(190, 190, 190, 1);
