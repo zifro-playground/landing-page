@@ -4,5 +4,18 @@
         <a class="navbar-brand mr-1" href="/">
             <img src="/media/1045/zifro_white.svg" height="25px" alt="Zifro">
         </a>
+
+        {{ if eq .URL "/" }}
+            <!-- PLAYGROUND AND TEACHER -->
+            <div class="float-right ml-auto">
+                <a class="btn" href="/teacher" role="button">
+                    Teacher
+                </a>
+                <a class="btn" href="/playground" role="button">
+                    Playground
+                </a>
+            </div>
+        {{ end }}
+
     </div>
 </nav>
